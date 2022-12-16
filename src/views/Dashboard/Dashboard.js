@@ -1,6 +1,6 @@
 import React from "react";
 import { createGlobalStyle } from 'styled-components';
-import HomeImage from '../../assets/img/background.jpg';
+import HomeImage from '../../assets/img/backgroundDashboard.png';
 import Page from "../../components/Page";
 import BombFinanceSummary from "./components/Bomb-Finance-Summary";
 import InvestNow from "./components/Investnow"
@@ -16,9 +16,9 @@ import './Dashboard.css'
 
 const BackgroundImage = createGlobalStyle`
   body {
-    background: url(${HomeImage}) repeat !important;
+    background: url(${HomeImage}) repeat;
     background-size: cover !important;
-    background-color: #171923;
+    background-color: red;
   }
 `;
 const Dashboard = () => {
