@@ -1,7 +1,7 @@
 .summry--container {
     position: relative;
     width: 1048px;
-    height: 289px;
+    height: 300px;
     left: 100px;
     top: 17px;
     
@@ -10,14 +10,6 @@
     
     border-radius: 5px;
 }
-
-.typography {
-    font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-line-height: 16px;
-}
-
 .summryText {
     position: absolute;
     color: #ffff;
@@ -30,89 +22,138 @@ font-family: 'Nunito';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
-line-height: 30px;
+line-height: 25px;
+margin: 0;
 }
-
-.Line--1st {
+.line--1 {
     position: absolute;
-width: 970px;
-height: 0px;
-left: 40px;
-top: 61px;
-
-border: 0.5px solid rgba(195, 197, 203, 0.75);
+    width: 970px;
+    height: 0px;
+    left: 40px;
+    top: 45px;
+    border: #ffff;
+    border-top: 0.3px solid rgba(195, 197, 203, 0.4);
 }
-.current-supply-keyword {
+.current--epoch--box {
     position: absolute;
-width: 68px;
-height: 14px;
-left: 380px;
-top: 94px;
-
+    width: 185.01px;
+    height: 215px;
+    left: 790px;
+    top: 76px;
+    border: 2px solid red;
+}
+.current--epoch {
+    position: absolute;
+width: 118px;
+height: 63px;
+left: 32px;
+top: 8px;
+border: 2px solid red;
 font-family: 'Nunito';
 font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height */
-
-
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
 color: #FFFFFF;
 }
-.total-supply-keyword {
-    /* Unity */
 
+.invest--now {
+    position: absolute;
+width: 646px;
+height: 50px;
+left: 100px;
+top: 357.47px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/* background-color: color-mix(in srgb, #34c9eb 40%, white); */
+/* background-color: color-mix(#00E8A2 25%, #00F5AB 50%, #E41A1A 100%, #FFFFFF 100% ); */
+background-color:  rgba(0, 173, 232, 0.3);
+}
+.latest--news {
+    position: absolute;
+width: 382px;
+height: 336px;
+left: 767px;
+top: 329.43px;
+
+border-radius: 10px;
+background: rgba(32, 37, 67, 0.5);
+border: 1px solid #728CDF;
+}
+.discord {
+    position: absolute;
+width: 317px;
+height: 40px;
+left: 100px;
+top: 415.5px;
+background-color:  rgb(255, 255, 255,0.5);
+}
+.read--doc {
+    position: absolute;
+width: 310px;
+height: 40px;
+left: 436px;
+top: 415.5px;
+background-color:  rgb(255, 255, 255,0.5);
+}
+.boardroom--recom {
+    /* Rectangle 22665 */
+
+
+box-sizing: border-box;
 
 position: absolute;
-width: 68px;
-height: 14px;
-left: 525px;
-top: 94px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.Price-keyword {
-    position: absolute;
-width: 22px;
-height: 14px;
-left: 690px;
-top: 94px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-
-}
-.Line--2nd {
-    position: absolute;
-width: 585px;
-height: 0px;
-left: 295px;
-top: 113px;
-
-border: 0.5px solid rgba(195, 197, 203, 0.75);
-}
-.BOMB--symbol {
-    position: absolute;
-width: 20px;
-height: 20px;
+width: 646px;
+height: 202px;
 left: 100px;
-top: 100px;
+top: 465px;
+
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+.bomb--farm {
+    position: absolute;
+width: 1046px;
+height: 377.25px;
+left: 100px;
+top: 685px;
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+}
+
+.bonds--box {
+    box-sizing: border-box;
+
+position: absolute;
+width: 1045px;
+height: 186px;
+left: 100px;
+top: 1082px;
+
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.read--I--S {
+    position: absolute;
+    width: 240.03px;
+    height: 22px;
+    left: 503px;
+top: 329.43px;
+border: 2px solid red;
+color: tan;
+text-align: right;
+
+}
+
+.main {
+    height: 1320px;
 }

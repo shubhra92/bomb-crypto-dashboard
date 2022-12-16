@@ -12,17 +12,14 @@ const BombFinanceSummary = () => {
     const bombTotalSupply = useMemo(() => (bombStats ? String(bombStats.totalSupply) : null), [bombStats]);
     return (
         <div className="summry--container">
-            <Typography className="summryText">Bomb Finance Summary</Typography>
-            <div className="Line--1st"></div>
-            <bold className="current-supply-keyword">Current Supply</bold>
-            <bold className="total-supply-keyword">Total Supply</bold>
-            <bold className="Price-keyword">Price</bold>
-            <div className="Line--2nd"></div>
-            <span className="BOMB--symbol">
-            <TokenSymbol symbol="BOMB"/>
-            </span>
+            <p className="summryText">Bomb Finance Summary</p>
+            <hr className="line--1"/>
+            <div className="current--epoch--box">
+                <div className="current--epoch">
+                    <p style={{margin:0}}> current epoch 285</p>
+                </div>
 
-            
+            </div>
         </div>
     )
 }
