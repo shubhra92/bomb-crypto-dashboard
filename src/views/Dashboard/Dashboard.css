@@ -135,17 +135,7 @@ color: white;
     color: #FFFFFF;
 }
 
-.invest--now {
-    position: absolute;
-width: 646px;
-height: 50px;
-left: 100px;
-top: 357.47px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-/* background-color: color-mix(in srgb, #34c9eb 40%, white); */
-/* background-color: color-mix(#00E8A2 25%, #00F5AB 50%, #E41A1A 100%, #FFFFFF 100% ); */
-background-color:  rgba(0, 173, 232, 0.3);
-}
+
 .latest--news {
     position: absolute;
 width: 382px;
@@ -218,18 +208,6 @@ backdrop-filter: blur(5px);
 
 border-radius: 10px;
 }
-
-.read--I--S {
-    position: absolute;
-    width: 240.03px;
-    height: 22px;
-    left: 503px;
-top: 329.43px;
-border: 2px solid red;
-color: tan;
-text-align: right;
-
-}
 .cs--ts--p--table {
     position: absolute;
     width: 654px;
@@ -237,7 +215,177 @@ text-align: right;
     left: 40px;
     top: 92px;
 }
+.cs--ts--p--table--box--3 {
+    position: absolute;
+    width: inherit;
+    height: 47px;
+    left: 0;
+}
+.logo--bbond--logo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    background-color: rgb(55,55,71);
+    padding: 2px;
+}
+.logo--bbond--label {
+    position: absolute;
+    width: 51px;
+    height: 15px;
+    left: 37px;
+    top: 6px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.cs--ts--p--value {
+    position: absolute;
+    width: 484px;
+    height: 38px;
+    left: 166px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.cs--value {
+    width: 46px;
+    height: 19px;
+    left: 388px;
+    top: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ts--value {
+    width: 46px;
+    height: 19px;
+    left: 388px;
+    top: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+.p--value {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;  
+}
+.metamaskfox--logo {
+    color: #FFFFFF;
+    width: 25.41px;
+    height: 25.41px;
+}
+.cs--label {
+    position: absolute;
+    width: 68px;
+    height: 14px;
+    left: 158px;
+    top: 1px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.ts--label {
+    position: absolute;
+    left: 308px;
+    top: 1px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 57px;
+    height: 14px;
+    text-align: center;
+}
+.p--label {
+    position: absolute;
+    width: 22px;
+    height: 14px;
+    left: 482px;
+    top: 1px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
 
+}
+.cs--ts--p--table--hr--1 {
+    position: absolute;
+    border: #ffff;
+    border-bottom: 0.3px solid rgba(195, 197, 203, 0.4);
+    height: 0;
+    width: 585px;
+    top: 10px;
+    left: 79px;
+}
+.cs--ts--p--table--hr--2 {
+    position: absolute;
+    border: #ffff;
+    border-bottom: 0.3px solid rgba(195, 197, 203, 0.4);
+    width: 634px;
+    height: 0px;
+    left: 30px;
+    top: 39px;
+}
+.read--I--S {
+    position: absolute;
+    width: 240.03px;
+    height: 22px;
+    left: 494px;
+    top: 329.43px;
+    color: tan;
+    text-align: right;
+}
+.read--I--S > a {
+    width: 190px;
+height: 22px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 20px;
+text-decoration-line: underline;
+font-feature-settings: 'liga' off;
+color: #9EE6FF;
+}
+.invest--now {
+    position: absolute;
+    width: 646px;
+    height: 45px;
+    left: 100px;
+    top: 364.47px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: rgba(0, 173, 232, 0.3);
+}
 .main {
     height: 1320px;
 }
