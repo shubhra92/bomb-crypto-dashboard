@@ -1,20 +1,17 @@
-import React, { useMemo } from "react";
-import {roundAndFormatNumber} from "../../../0x"
-import useBombStats from '../../../hooks/useBombStats';
-import usebShareStats from '../../../hooks/usebShareStats';
-import useBondStats from '../../../hooks/useBondStats';
-import TokenSymbol from "../../../components/TokenSymbol"
-import { Typography } from "@material-ui/core";
-import useCurrentEpoch from '../../../hooks/useCurrentEpoch';
-import ProgressCountdown from '../../Boardroom/components/ProgressCountdown';
 import moment from 'moment';
-import useTreasuryAllocationTimes from '../../../hooks/useTreasuryAllocationTimes';
+import React, { useMemo } from "react";
 import CountUp from 'react-countup';
-import useTotalValueLocked from '../../../hooks/useTotalValueLocked';
+import bbondImg from "../../../assets/img/bbond-256.png";
 import bombImg from "../../../assets/img/bomb-256.png";
 import bshareImg from "../../../assets/img/bshare-256.png";
-import bbondImg from "../../../assets/img/bbond-256.png";
 import MetamaskFox from '../../../assets/img/metamask-fox.svg';
+import useBombStats from '../../../hooks/useBombStats';
+import useBondStats from '../../../hooks/useBondStats';
+import usebShareStats from '../../../hooks/usebShareStats';
+import useCurrentEpoch from '../../../hooks/useCurrentEpoch';
+import useTotalValueLocked from '../../../hooks/useTotalValueLocked';
+import useTreasuryAllocationTimes from '../../../hooks/useTreasuryAllocationTimes';
+import ProgressCountdown from '../../Boardroom/components/ProgressCountdown';
 
 
 
@@ -61,7 +58,7 @@ const BombFinanceSummary = () => {
         return (
             <div className="cs--ts--p--table--box--3" style={{top: Top}} >
                     <div style={{position:"relative"}}>
-                        <img className="logo--bbond--logo"  src={Logo} alt="" / >
+                        <img className="logo--bbond--logo"  src={Logo} alt="" />
                         <label className="logo--bbond--label">${LogoLabel}</label>
                     </div>
                     <div className="cs--ts--p--value" >
@@ -102,9 +99,9 @@ const BombFinanceSummary = () => {
                 <label className="ts--label">Total Supply</label>
                 <label className="p--label">Price</label>
                 <hr className="cs--ts--p--table--hr--1"/>
-                <Cs_Ts_P_Table_Box Top={'30px'} LogoLabel={'BOMB'} Logo={bombImg} TotalSupply={bombTotalSupply} DollarPrice={bombPriceInDollars}/>
-                <Cs_Ts_P_Table_Box Top={'90px'} LogoLabel={'BSHARE'} Logo={bshareImg} TotalSupply={bShareTotalSupply} DollarPrice={bSharePriceInDollars}/>
-                <Cs_Ts_P_Table_Box Top={'150px'} LogoLabel={'BBOND'} Logo={bbondImg} TotalSupply={tBondTotalSupply} DollarPrice={tBondPriceInDollars}/>
+                <Cs_Ts_P_Table_Box Top={'30px'} LogoLabel={'BOMB'} Logo={bombImg} TotalSupply={bombTotalSupply} DollarPrice={bombPriceInDollars} />
+                <Cs_Ts_P_Table_Box Top={'90px'} LogoLabel={'BSHARE'} Logo={bshareImg} TotalSupply={bShareTotalSupply} DollarPrice={bSharePriceInDollars} />
+                <Cs_Ts_P_Table_Box Top={'150px'} LogoLabel={'BBOND'} Logo={bbondImg} TotalSupply={tBondTotalSupply} DollarPrice={tBondPriceInDollars} />
             </div>
         </div>
     )

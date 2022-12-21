@@ -3,7 +3,7 @@ import React from "react";
 const InvestNow = () => {
     return (
         <div className="invest--now">
-            <h1>hello</h1>
+            <label className="invest--now--label">Invest Now</label>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import React from "react";
 const LatestNews = () => {
     return (
         <div className="latest--news">
-            <h1>Latest News</h1>
+            <label className="latest--news--label">Latest News</label>
         </div>
     )
 }
