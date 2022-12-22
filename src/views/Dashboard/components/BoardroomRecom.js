@@ -2,13 +2,14 @@ import React from "react";
 import arrowUpCircleLogo from "../../../assets/img/arrow-up-circle.svg";
 import bombLogo from "../../../assets/img/bomb-200x200.png";
 import bshareLogo from "../../../assets/img/bshare-200x200.png";
+import RecommendedTag from "./subComponents/recommended-tag";
 
 const BoardroomRecom = () => {
     return (
         <div className="boardroom--recom">
             <img src={bshareLogo} alt="bshare"  className="boardroom--recom--bshare--logo"/>
             <label className="boardroom--recom--label">Boardroom</label>
-            <label className="boardroom--recom--recommended--label">Recommended</label>
+            <RecommendedTag top="18px" left="188.71px"/>
             <p className="boardroom--recom--heading" >Stake BSHARE and earn BOMB every epoch</p>
             <label className="boardroom--rcom--tvl">TVL: $1,008,430</label>
             <hr className="boardroom--rcom--hr--1"/>
@@ -34,11 +35,11 @@ const BoardroomRecom = () => {
             </div>
             <div className="boardroom--rcom--deposit--btn">
                 <label className="boardroom--rcom--deposit--btn--label" >Deposit</label>
-                <img src={arrowUpCircleLogo} alt="" className="boardroom--rcom--deposit--btn--logo" />
+                <img src={arrowUpCircleLogo} alt=""  />
             </div>
             <div className="boardroom--rcom--withdrawl--btn">
                 <label className="boardroom--rcom--deposit--btn--label" >Withdraw</label>
-                <img src={arrowUpCircleLogo} alt="" className="boardroom--rcom--deposit--btn--logo" style={{transform: 'rotate(-180deg)'}}/>
+                <img src={arrowUpCircleLogo} alt="" style={{transform: 'rotate(-180deg)'}}/>
             </div>
             <div className="boardroom--rcom--claimRewards--btn">
                 <label className="boardroom--rcom--claimRewards--btn--label" >Claim Rewards</label>
