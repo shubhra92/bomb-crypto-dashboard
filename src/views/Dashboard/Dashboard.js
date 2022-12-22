@@ -25,16 +25,18 @@ const Dashboard = () => {
     return (
         <Page>
             <BackgroundImage />
-            <div style={{position:"relative"}} className="main">
-            <BombFinanceSummary />
-            <ReadIS />
-            <InvestNow />
-            <LatestNews />
-            <Discord />
-            <ReadDoc />
-            <BoardroomRecom />
-            <BombFarm />
-            <BondsBox />
+            <div style={{boxSizeing:'border-box', width:"100%", display:"flex", justifyContent:"center"}}>
+              <div style={{position:"relative"}} className="main">
+                <BombFinanceSummary />
+                <ReadIS />
+                <InvestNow />
+                <LatestNews />
+                <Discord />
+                <ReadDoc />
+                <BoardroomRecom />
+                <BombFarm />
+                <BondsBox />
+              </div>
             </div>
         </Page>
     )

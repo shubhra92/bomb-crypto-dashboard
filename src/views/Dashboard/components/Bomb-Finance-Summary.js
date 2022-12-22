@@ -29,7 +29,6 @@ const BombFinanceSummary = () => {
     }
     const TVL = useTotalValueLocked();
     const currentEpoch = useCurrentEpoch()
-    const tokens = ["Bomb"]
     
     const bombStats = useBombStats();
     const bombTotalSupply = useMemo(() => (bombStats ? totalSupplyFunc(bombStats.totalSupply) : '--.--'), [bombStats]);
