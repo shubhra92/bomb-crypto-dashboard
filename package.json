@@ -63,7 +63,7 @@
     "start": "react-scripts start",
     "start2": "react-scripts --openssl-legacy-provider start",
     "build2": "CI= GENERATE_SOURCEMAP=false react-scripts build",
-    "build": "CI= GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
